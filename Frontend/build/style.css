@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+        url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    font-family:"ColfaxAI",
+        Helvetica,
+        sans-serif;
+}
+
+/*Headers CSS****************************************************/
+.navbar {
+    display: flex;
+    height: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #10a37f;
+    color: #fff;
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: -25px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main component CSS *******************************************/
+
+.showcase {
+    text-align: center;
+    padding: 5px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+input[type='text'] {
+    width: 60%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #10a37f;
+    border-radius: 5px;
+}
+
+select {
+    width: 20%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #10a37f;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 12px 20px;
+    background-color: #10a37f;
+    font-family: "ColfaxAI",
+            Helvetica,
+            sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.msg {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 70%;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+
+
+/*Logo CSS*************************************************/
+.logo-img {
+    margin: auto;
+    height: 60px;
+    width: 100px;
+    margin-top:10px ;
+}
+
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+/*========================================================*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form label,
+.form input {
+    margin-bottom: 10px;
+}
+
+.spinner {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+    display: flex;
+        justify-content: center;
+}
+
+.desPara{
+    text-align: center;
+}
